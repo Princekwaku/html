@@ -1,0 +1,42 @@
+p {
+    margin: 20;
+    padding: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:gold ;
+    padding: 20px;
+    border: 10;
+    box-sizing: border-box;
+}
+.boxes {
+    border: 3px dashed lightgrey;
+    position: relative;
+}
+.boxx {
+    width: 5rem;
+    height: 5rem;
+}
+.one{
+    background: gold;
+}
+.two {
+    background: tomato;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+}
+.three {
+    background: dodgerblue;
+}
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    float: left;
+}
+.clear {
+    clear: both;
+}

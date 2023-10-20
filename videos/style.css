@@ -1,0 +1,56 @@
+video {
+    width: 400px;
+}
+li{
+    list-style: square;
+}
+h2 {
+    color: rgba(127, 150, 255, 0.5);
+}
+table, td, th{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px ;
+}
+tfoot{
+    text-align: left ;
+}
+article p:first-child{
+    font-size: 140%;
+}
+article p:last-of-type{
+    font-weight: bold;
+}
+ul li:nth-child(odd) {
+    color: blue;
+    font-style: italic;
+}
+ul:hover{
+    color: rgba(255, 0, 0, 0.768);
+}
+a:visited{
+    color: dodgerblue;
+}
+a:hover, a:focus {
+    color: brown;
+}
+.first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: rgb(220, 245, 238);
+}
+strong{
+    color: #1e90ff;
+    font-style: capitalize;
+    font-size: 100%;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: gold;
+    box-shadow: 0 0 30px grey;
+   
+}
